@@ -1,9 +1,9 @@
+import torch, torchvision
 import decord
 from decord import VideoReader
 from decord import cpu, gpu
 import os.path as osp
 import numpy as np
-import torch, torchvision
 from tqdm import tqdm
 import cv2
 import skvideo.io

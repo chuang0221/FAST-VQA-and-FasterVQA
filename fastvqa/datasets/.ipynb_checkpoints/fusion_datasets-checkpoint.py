@@ -1,10 +1,10 @@
+import torch, torchvision
 import decord
 from decord import VideoReader
 from decord import cpu, gpu
 import glob
 import os.path as osp
 import numpy as np
-import torch, torchvision
 from tqdm import tqdm
 import cv2
 
